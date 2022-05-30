@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.nav1{
+    background: linear-gradient(90deg, #185a9d, #43CEA2);
+    display: flex;
+
+}
+
+nav{
+    background: linear-gradient(90deg,#0c4680, #39af8a);
+
+}
+
+.logo img{
+    width: 145px;
+    padding: 0 100px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;   
+}
+
+.Search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
+}
+
+.Search input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    width: 610px;
+    height: 38px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    outline: none;
+}
+
+
+.right ul{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    align-items: center;
+}
+.right ul li{
+    list-style: none;
+    padding:0 63px;
+    
+}
+
+.right ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.right ul li a:hover{
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding:0 90px;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    font-weight: bold;
+}
+main{
+    background-color: black;
+}
+
+.footer{
+    height: 10vh;
+    background-color: #0f7c80;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+.Flex-container1{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+    padding-top: 70px;
+    justify-content: center;
+
+}
+
+.Flex-container2{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+
+}
+
+main h1{
+    display: block;
+    color: white;
+    text-align: center;
+
+}
+
+.flex-item{
+    width: 300px;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(46, 45, 45);
+    border-radius:10px;
+
+
+}
+
+.flex-item img{
+    width: 100%;
+    padding: 2px;
+}
+
+.flex-item h1{
+    color: white;
+    padding: 2px;
+}
+
+.flex-item h3{
+    color: white;
+    padding: 2px;
+}
+
+.flex-item h5{
+    color: white;
+    padding: 2px;
+}
